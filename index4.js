@@ -1,3 +1,4 @@
+
     const bookmarkForm = document.getElementById('bookmarkForm');
     const urlInput = document.getElementById('url');
     const bookmarkList = document.getElementById('bookmarkList');
@@ -67,5 +68,4 @@
         urlInput.value = '';
         renderBookmarks();
     });
-
     renderBookmarks();
