@@ -4,7 +4,7 @@
 console.log(taskForm);
 
 
-    e.preventDefault();
+   
     const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
     function savetus() {
