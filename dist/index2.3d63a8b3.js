@@ -1,0 +1,2 @@
+const e=document.getElementById("userForm"),t=document.getElementById("username"),a=document.getElementById("email"),l=document.getElementById("age");e.addEventListener("submit",function(e){e.preventDefault();let n={username:t.value,email:a.value,age:l.value};localStorage.setItem("userData",JSON.stringify(n))});const n=JSON.parse(localStorage.getItem("userData"));n&&(t.value=n.username||"",a.value=n.email||"",l.value=n.age||"");
+//# sourceMappingURL=index2.3d63a8b3.js.map
