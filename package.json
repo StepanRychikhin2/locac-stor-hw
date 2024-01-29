@@ -2,11 +2,10 @@
   "name": "locac-stor-hw",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://stepanrychikhin2.github.io/locac-stor-hw/",
+  "homepage": "https://github.com/StepanRychikhin2/locac-stor-hw#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "parcel build src/index.html --public-url /locac-stor-hw"
-  
+    "build": "parcel build index.html --public-url /locac-stor-hw"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/StepanRychikhin2/locac-stor-hw/issues"
   },
-  "homepage": "https://github.com/StepanRychikhin2/locac-stor-hw#readme",
   "dependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0"
   }
 }
